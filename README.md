@@ -112,3 +112,12 @@ The most popular online compilers (at least from this tutorial) are:
 
 The **main** function is important because it's the <i>starting (entry) point</i> of our program. All the statemens in the main function are going to be executed in order.<br>
 The main function usually returns 0, and that is a way that the function is sending a message to the operating system if it finished succesfully or not.
+
+### Comments
+
+**//** - Comments out a single line.<br>
+<b>/* ... */</b> - Block comments out a block of text.<br>
+Block comments can't be nested.<br>
+Comments are used to document the code, but we shouldn't overdo it.
+
+
