@@ -120,4 +120,16 @@ The main function usually returns 0, and that is a way that the function is send
 Block comments can't be nested.<br>
 Comments are used to document the code, but we shouldn't overdo it.
 
+### Errors
 
+
+We have 3 basic types:
+- Compile time errors
+- Runtime errors
+- Warnings
+
+Compile time errors, as the name says, are errors received in the compile process. If we have these kind of errors the binary file is not going to be created because the compile process is not finished succesfully.
+
+Runtime errors are thrown after the compilation process finished succesfully and we got our binary file.
+The problem is that our binary file is not working as it should.<br>
+They are usually logical errors and they can crash the execution of our program.
