@@ -122,7 +122,6 @@ Comments are used to document the code, but we shouldn't overdo it.
 
 ### Errors
 
-
 We have 3 basic types:
 - Compile time errors
 - Runtime errors
@@ -133,3 +132,13 @@ Compile time errors, as the name says, are errors received in the compile proces
 Runtime errors are thrown after the compilation process finished succesfully and we got our binary file.
 The problem is that our binary file is not working as it should.<br>
 They are usually logical errors and they can crash the execution of our program.
+
+### Statements and functions
+
+A statement is the smallest thing a CPU can execute in our program.
+Statements end with a semicolon in C++ (;).
+They are executed in order from top to bottom when the program runs.
+Execution keeps going until there is a statement causing the program to terminate, or run another sequence of statements.
+
+![c++ function](/pictures/function.png)
+
