@@ -8,16 +8,13 @@ int addNumbers(int first, int second) {
 
 int main(int argc, char **argv) {
 
-  int firstNumber;
-  int secondNumber;
+  int age;
+  std::string name;
 
-  int sum = addNumbers(firstNumber, secondNumber);
+  std::cout << "Type in your last name and age, separated by spaces: " << std::endl;
+  std::cin >> name >> age;
+  std::cout << "Hello " << name << "! You are " << age << " years old." << std::endl;
 
-  std::cout << "Enter the first number: ";
-  std::cin >> firstNumber;
-  std::cout << "Enter the second number: ";
-  std::cin >> secondNumber;
-  std::cout << "The sum of those numbers is: " << addNumbers(firstNumber, secondNumber) << std::endl;
 
   return 0;
 }

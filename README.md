@@ -142,3 +142,67 @@ Execution keeps going until there is a statement causing the program to terminat
 
 ![c++ function](/pictures/function.png)
 
+### Input/Output
+
+**std::cout** - Print data to the console (terminal).<br>
+**std::cin** - Read data from the terminal.<br>
+**std::cerr** - Print errors to the console.<br>
+**std::clog** - Print log messages to the console.
+
+One difference between printing and reading data in the terms of syntax is that **arrows are going LEFT when we want to print out (<<)** and **RIGHT when we want to read some data (>>)**.
+
+Here are some printing out examples:
+```
+//Print stuff to the console.
+std::cout << "Hello world" << std::endl;
+
+std::cout << "The number is: " << 12 << std::endl;
+
+int age {21};
+std::cout << "The age is: " << age << std::endl;
+
+//Error.
+std::cerr << "std::cer output : Something went wrong" << std::endl;
+
+//Log message.
+std::clog << "std::clog output : This is a log message" << std::endl;
+```
+
+
+And reading data example:
+
+```
+int firstNumber;
+int secondNumber;
+
+std::cout << "Enter the first number: ";
+std::cin >> firstNumber;
+std::cout << "Enter the second number: ";
+std::cin >> secondNumber;
+std::cout << "The sum of those numbers is: " << addNumbers(firstNumber, secondNumber) << std::endl;
+```
+
+Another cool thing we can do with *std::cin* is **chaining input**.
+
+```
+int age;
+std::string name;
+
+std::cout << "Type in your last name and age, separated by spaces: " << std::endl;
+std::cin >> name >> age;
+std::cout << "Hello " << name << "! You are " << age << " years old." << std::endl;
+```
+
+We can have a problem with the code above if the user enters the full name, with spaces.
+Like this:
+- John Doe 32
+
+Than we are going to have this printed out in the console:
+```
+Type in your last name and age, separated by spaces:
+John Doe 32
+Hello John! You are 0 years old.
+```
+
+
+
