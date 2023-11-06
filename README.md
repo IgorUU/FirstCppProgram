@@ -228,5 +228,9 @@ Type in your age:
 Hello Igor Usumovic! You are 32 years old.
 ```
 
+## C++ Program Execution Model & Memory Model
 
+Our binary files are being loaded in the RAM memory when we click two times on them,
+or when we load them in our terminal.
 
+ ![program execution and memory model](/pictures/memory_model.png)
