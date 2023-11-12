@@ -237,14 +237,14 @@ or when we load them in our terminal.
 
 ## C++ core language VS Standard library VS STL
 
-Example of C++ core language components are rules that we need to follow in order
+Example of **C++ core language** components are rules that we need to follow in order
 for our program to be valid and compiled.
 How we define variables and functions is a good example.
 Those are some core features that are realy the foundation on what we build our
 C++ programs.
 
-Standard library is a set of ready-to-use components that we can implement in
+**Standard library** is a set of ready-to-use components that we can implement in
 our programs. <br>
 \<iostream> (std::cout, std::cin), \<string> are some examples of standard librarie features. <br>
 
-STL is a highly specialised part of a C++ Standard library.
+**STL** is a highly specialised part of a C++ Standard library.
