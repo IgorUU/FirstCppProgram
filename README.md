@@ -248,3 +248,39 @@ our programs. <br>
 \<iostream> (std::cout, std::cin), \<string> are some examples of standard librarie features. <br>
 
 **STL** is a highly specialised part of a C++ Standard library.
+
+## Variables and Data Types
+
+Some of C++ Data Types are:
+- int
+- double
+- float
+- char
+- bool
+- void
+- auto
+- ...
+
+### Number systems
+Number systems allow us to transform the data that is in a form that is convinient
+and readable for humans, to a form that is convinient for computers.
+We can also use them vice versa.
+
+We use the so called **Base 10** number system in our everday lives.
+![the base 10 number system](/pictures/base_10.png)
+
+And this is a reprsentation of **Base 2** number system which is used by the computers.
+
+![the binary number system](/pictures/base_2.png)
+
+ And here is an example on how we could represent the number 15 in different
+ number systems in our C++ program.
+
+ ![representation of the number 15 in different number systems in our C++ program](/pictures/different_number_representation.png)
+
+As we can see, when we want to represent the number in the **Base 10** number system we enter the "original" value - 15.<br>
+In **octal system** we use a **0** prefix and then append the octal value for that number which is 17, so at the end number 15 is represented like this 017.<br>
+The **hexadecimal** representation uses the **0x** prefix.
+The number 15 look like this 0x0f.<br>
+And finally, the binary system uses the **0b** prefix and the binary represenation of the number 15 is this 0b00001111.
+

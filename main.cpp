@@ -2,22 +2,17 @@
 #include <cstdlib>
 #include <string>
 
-int addNumbers(int first, int second) {
-  return first + second;
-}
-
 int main(int argc, char **argv) {
 
-  int age;
-  std::string full_name;
+  int number1 = 15;
+  int number2 = 017;
+  int number3 = 0x0f;
+  int number4 = 0b00001111;
 
-  std::cout << "Type in your full name: " << std::endl;
-  std::getline(std::cin, full_name);
-
-  std::cout << "Type in your age: " << std::endl;
-  std::cin >> age;
-  std::cout << "Hello " << full_name << "! You are " << age << " years old." << std::endl;
-
+  std::cout << number1 << std::endl;
+  std::cout << number2 << std::endl;
+  std::cout << number3 << std::endl;
+  std::cout << number4 << std::endl;
 
   return 0;
 }
