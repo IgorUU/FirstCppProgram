@@ -284,3 +284,31 @@ The **hexadecimal** representation uses the **0x** prefix.
 The number 15 look like this 0x0f.<br>
 And finally, the binary system uses the **0b** prefix and the binary represenation of the number 15 is this 0b00001111.
 
+### Integers
+
+They store WHOLE numbers (1,2, 34, 1020).<br>
+Tipically, they occupy 4 bytes or more in memory, but mostly 4.<br>
+
+<u>Types of variable initializations</u>
+
+- Braced initialization
+	- int lion_count{}; //Initializes to zero.
+	- int cat_count{15}; //Initializes to 15.
+	- int narrowing_conversion{2.9} // 2.9 is of type double, with a wider range than int. ERROR OR WARNING.
+
+- Functional initialization
+	- int apple_count(5);
+	- int orange_count(10);
+	- int fruit_count (apple_count + orange_count);
+	- int narrowing_conversion_functional (2.9) // Information lost. Less safe than braced initializers.
+
+- Assignment initialization
+	- int bike_count = 2;
+	- int truck_count = 7;
+	- int vehicle_count = bike_count + truck_count;
+
+	We can check the **size of a type** in the memory.
+	```
+	std::cout << "sizeof int: " << sizeof(int) << std::endl;
+	```
+

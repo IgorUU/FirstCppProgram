@@ -14,5 +14,9 @@ int main(int argc, char **argv) {
   std::cout << number3 << std::endl;
   std::cout << number4 << std::endl;
 
+
+  std::cout << "sizeof int: " << sizeof(int) << std::endl;
+  std::cout << "sizeof number1: " << sizeof(number2) << std::endl;
+
   return 0;
 }
