@@ -312,3 +312,28 @@ Tipically, they occupy 4 bytes or more in memory, but mostly 4.<br>
 	std::cout << "sizeof int: " << sizeof(int) << std::endl;
 	```
 
+### Integer modifiers
+
+<u>Positive and negative numbers</u>
+
+Integer variables are **signed** by default. <br>
+That means that we can store positive and negative numbers in them.
+```
+int value1 {10};
+int value1 {-300};
+```
+
+Is the same as
+```
+signed int value1{10};
+signed int value1{-300};
+```
+
+But, if we want to put only positive numbers in our int variable then we use the **unsigned** modifier.
+
+Something like this:
+```
+unsigned int value1{10};
+```
+
+If we enter a negative number in an unsigned variable we are going to get a compile error.
