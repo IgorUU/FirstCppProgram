@@ -336,4 +336,20 @@ Something like this:
 unsigned int value1{10};
 ```
 
-If we enter a negative number in an unsigned variable we are going to get a compile error.
+If we enter a negative number in an unsigned variable we are going to get a compile error.<br>
+
+It is interesting to show which range of numbers can we use *signed* and *unsigned* integers.
+![number range in signed and unsigned integers](/pictures/number_range.png)
+
+<u>Short or long</u>
+
+| Data type | Size (in Bytes) | Meaning |
+| :---			|	     :----:			|	 	 ---: |
+| short	|	2	|	Used for small integers. Range -32768 to 32767.	|
+| long | at least 4 | Used for large integers. Equivalent to long int. |
+| unsigned long | 4 | Used for large positive integers or 0. Equivalent to unsigned long int. |
+| long long | 8 | Used for very large integers. Equivalent to long long int. |
+
+**Note**: These modifiers only apply to integral types: those in which you can store decimal or whole numbers.
+It looks to me like it's only being used with integers. But, I am not sure, check this in future.
+
