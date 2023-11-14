@@ -353,3 +353,26 @@ It is interesting to show which range of numbers can we use *signed* and *unsign
 **Note**: These modifiers only apply to integral types: those in which you can store decimal or whole numbers.
 It looks to me like it's only being used with integers. But, I am not sure, check this in future.
 
+
+### Fractional numbers
+
+Fractional numbers are also called **Floating point types** are just **Floating types**.<br>
+Used to represent numbers with fractional parts in C++.<br>
+There are 3 types that we can use in C++:
+- float
+- double
+- long double
+
+![Fractional number types in C++](/pictures/fractional_numbers.png)
+
+The main difference between them is the size they take in the memory.
+
+When we want initialize a variable which will be a *float* type, then we must add a suffix **f** to that number, otherwise it is going to be **double** by default.<br>
+For long double its **L** suffix.<br>
+And for the ordinary double, we don't need a suffix because that is the default value.
+
+```
+float number1 {1.12345678901234567890f}
+double number2 {1.12345678901324567890};
+long double number3 {1.12345678901324567890L};
+```
