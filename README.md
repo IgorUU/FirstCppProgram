@@ -376,3 +376,13 @@ float number1 {1.12345678901234567890f}
 double number2 {1.12345678901324567890};
 long double number3 {1.12345678901324567890L};
 ```
+In terms of the precision, as you can guess, the least precise is the float. <br>
+Its precision is 7, and that means that it can show us up to 7 digits correctly. Everything else is junk. <br> Precision of double is around 15. <br> And the long double has a minimum precision of 15, 18, or 33 significant digits depending on how many bytes it occupies-
+
+**Scientific notation** is a term used for representing realy huge numbers with this **e** sufix. <br>
+For example, <br>
+1.924e8 will be presented like 1.924 * 10<sup>8</sup>.
+
+### Booleans
+
+Starting from 4:16:40.
