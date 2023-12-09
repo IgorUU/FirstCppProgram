@@ -388,8 +388,17 @@ For example, <br>
 Not really much to say. They are true/false values. <br>
 We cant find them helpfull in some conditional statements.
 
-One boolean value occupies one byte of memory.
+One boolean value occupies **one byte** of memory.
 
 ### Characters and text
+
+```
+char one_character{'i'};
+```
+Char occupies **one byte** in the memory. <br>
+With one byte we can reperesent 256 possible values. <br>
+Each value is matched to some character.
+
+![ACII Table](/pictures/ascii_table.png)
 
 
