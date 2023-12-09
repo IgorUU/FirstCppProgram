@@ -2,14 +2,21 @@
 
 int main() {
 
-  //Declare and initialize the variables.
-  float number1 {1.12345678901234567890f};
-  double number2 {1.12345678901234567890};
-  long double number3{1.12345678901234567890L};
+  bool red_light{false};
+  bool green_light{false};
+  int number{1};
 
-  //Print out the sizes.
-  std::cout << "sizeof float : " << sizeof(float) << std::endl;
-  std::cout << "sizeof double : " << sizeof(double) << std::endl;
-  std::cout << "sizeof long double : " << sizeof(long double) << std::endl;
+  if (red_light){
+    std::cout << "Stop!" << std::endl;
+  } else{
+    std::cout << "Go through!" << std::endl;
+  }
 
+  std::cout << "sizeof(bool): " << sizeof(bool) << std::endl;
+  std::cout << std::boolalpha;
+  std::cout << "boolean value: " << red_light << std::endl;
+  std::cout << "ordinary value: " << number << std::endl;
+  std::cout << "sizeof(number)" << sizeof(number) << std::endl;
+
+  return 0;
 }

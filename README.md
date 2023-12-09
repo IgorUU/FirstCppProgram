@@ -385,4 +385,11 @@ For example, <br>
 
 ### Booleans
 
-Starting from 4:16:40.
+Not really much to say. They are true/false values. <br>
+We cant find them helpfull in some conditional statements.
+
+One boolean value occupies one byte of memory.
+
+### Characters and text
+
+
