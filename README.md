@@ -444,4 +444,17 @@ Then we **CAN'T** assign that value with a negative number because we will get a
 var3 = -22;
 ```
 
+## Operations on data
 
+### Basic operations
+
+The basic opeations are
+- add
+- subtract
+- divide
+- multiply
+- modulus
+
+Everything is pretty basic here, except the part where we divide integer numbers, we have to be carefull there.<br>
+If we want to divide 31 with 10, you maybe think that we will get some float number as a result, but you are not correct.<br>
+We will get the number **3** as a result because that is an **integer** division and it will return an int.
