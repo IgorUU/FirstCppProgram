@@ -401,4 +401,19 @@ Each value is matched to some character.
 
 ![ACII Table](/pictures/ascii_table.png)
 
+### Auto
+
+Auto is a keyword in C programming language. <br>
+**auto** - Let the compiler deduce the type. <br>
+This means that the compiler will ***automatically*** try to guess the type of the variable. For instance:<br><br>
+```
+auto var1 {12}; // int
+auto var2 {12.0}; // double
+auto var3 {12.0f}; // float
+auto var4 {12.0l}; // long
+auto var5 {'e'}; // char
+auto var6 {123u} // unsigned
+auto var7 {123ul} // unsigned long
+auto var8 {123ll}	// long long
+```
 
