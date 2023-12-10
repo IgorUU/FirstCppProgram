@@ -417,3 +417,31 @@ auto var7 {123ul} // unsigned long
 auto var8 {123ll}	// long long
 ```
 
+### Assignments
+
+The whole point of this lesson is that we need to now what it means to **declare and initialize** a variable, and what it means to **assign** a new value to it.<br>
+
+For example, if we don't have a variable with the name *var1* we can *declare* it and *initialize* it with some value like this:<br>
+
+```
+int var1{123}; // Declare and initialize
+```
+
+But if we already have a variable with that name, then we can assign it with a new value, like this:
+
+```
+var1 = 55; // Assign
+```
+
+We have to be carefull in situations where we declare a variable with the *auto* keyword. <br>
+If we did something like this:<br>
+```
+auto var3 {333u};
+```
+Then we **CAN'T** assign that value with a negative number because we will get a **COMPILE ERROR** and we don't want that.
+
+```
+var3 = -22;
+```
+
+
