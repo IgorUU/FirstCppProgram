@@ -458,3 +458,18 @@ The basic opeations are
 Everything is pretty basic here, except the part where we divide integer numbers, we have to be carefull there.<br>
 If we want to divide 31 with 10, you maybe think that we will get some float number as a result, but you are not correct.<br>
 We will get the number **3** as a result because that is an **integer** division and it will return an int.
+
+### Presedence and Associativity
+
+We need to have some set of rules on which operations are executed first if we have a situation like this:
+![ACII Table](/pictures/presedence.png)
+
+**Presedence** - which operation to do first. <br>
+**Associativity** - which direction or which order.
+
+There is a **C++ Operator Precedence** table so that we now which operators will get executed first.<br>
+https://en.cppreference.com/w/cpp/language/operator_precedence
+
+ADVICE: It is better to make the intent in your code as clear as possible by clearly using () to indicate which operations you want done first.
+
+### Prefix and Postfix + and -
