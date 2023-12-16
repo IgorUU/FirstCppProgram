@@ -2,10 +2,7 @@
 
 int main() {
 
-  bool a {true};
-  bool b {false};
-  bool c {true};
+  float decimal_number {12.22};
 
-  std::cout << std::boolalpha;
-  std::cout << "!(a && b) || c : " << (!(a && b) || c) << std::endl;
+  std::cout << std::hex << std::noshowbase << 42 << std::endl;
 }

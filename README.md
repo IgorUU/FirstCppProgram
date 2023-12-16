@@ -504,3 +504,15 @@ Here are the examples: <br><br>
 ![AND operator](/pictures/or_operator.png)
 **NOT**
 ![AND operator](/pictures/not_operator.png)
+
+### Output formatting
+
+We can format stuff that we are sending to the console using std::cout. <br>
+There are a set of tools that are comming from these libraries: **\<ios>, \<iomanip>**. <br>
+The documentation for using is right here: https://en.cppreference.com/w/cpp/io/manip. <br><br>
+
+
+Some of them are:<br>
+**std::flush** - causes immediate sending of data to the device connected to the stream.<br>
+**std::setw({number})** - changes the width of the next input/output field. In combination with this we can also use *justification*, like this **std::right**. This means that the data in the cells of our table will be alligned to the right.<br>
+**std::showpos** - controls whether the + sign is shown with non-negative numbers.
