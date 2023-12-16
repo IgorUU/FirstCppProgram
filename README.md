@@ -478,3 +478,18 @@ Nothing realy much to say here. It is a classic story of incrementation (value++
 
 ### Compound operators
 
+The compound operator is an operator with which a value can be modified and assigned to a variable.<br>
+Compound operators are: **+=, -=, \*=, /=, %=**
+
+### Relational operators
+
+Relational operators are operators that we use the compare stuff. <br>
+The operators are:
+- <			- less then
+- <=		- less then or equal
+- \>		- bigger then
+- \>=		- bigger then or equal
+- ==		- equal
+- !=		- not equal
+
+All of these operators return a **boolean** (true, false).
