@@ -475,3 +475,6 @@ ADVICE: It is better to make the intent in your code as clear as possible by cle
 ### Prefix and Postfix + and -
 
 Nothing realy much to say here. It is a classic story of incrementation (value++) and decremenatation (value--).
+
+### Compound operators
+
