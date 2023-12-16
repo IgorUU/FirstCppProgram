@@ -493,3 +493,14 @@ The operators are:
 - !=		- not equal
 
 All of these operators return a **boolean** (true, false).
+
+### Logical operators
+
+Logical operators are working in boolean values.
+Here are the examples: <br><br>
+**AND**
+![AND operator](/pictures/and_operator.png)
+**OR**
+![AND operator](/pictures/or_operator.png)
+**NOT**
+![AND operator](/pictures/not_operator.png)
