@@ -473,3 +473,5 @@ https://en.cppreference.com/w/cpp/language/operator_precedence
 ADVICE: It is better to make the intent in your code as clear as possible by clearly using () to indicate which operations you want done first.
 
 ### Prefix and Postfix + and -
+
+Nothing realy much to say here. It is a classic story of incrementation (value++) and decremenatation (value--).
