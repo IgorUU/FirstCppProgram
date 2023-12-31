@@ -6,12 +6,9 @@
 
 int main() {
 
-  int aNumbers[] = {1,2,3,4,5};
-  int * pNumbers = aNumbers;
+  const char * p = "Hello world";
+  const char ** p1 = &p;
 
-  pNumbers++;
-
-  std::cout << pNumbers << std::endl;
-  std::cout << aNumbers << std::endl;
+  std::cout << *p1 << std::endl;
 
 }
