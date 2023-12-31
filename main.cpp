@@ -6,14 +6,12 @@
 
 int main() {
 
-  char szText[] = "Hello world!";
-  char * pText = szText;
+  int aNumbers[] = {1,2,3,4,5};
+  int * pNumbers = aNumbers;
 
-  pText++;
+  pNumbers++;
 
-  std::cout << pText << std::endl;
+  std::cout << pNumbers << std::endl;
+  std::cout << aNumbers << std::endl;
 
-  pText += 5;
-
-  std::cout << pText << std::endl;
 }
