@@ -516,3 +516,12 @@ Some of them are:<br>
 **std::flush** - causes immediate sending of data to the device connected to the stream.<br>
 **std::setw({number})** - changes the width of the next input/output field. In combination with this we can also use *justification*, like this **std::right**. This means that the data in the cells of our table will be alligned to the right.<br>
 **std::showpos** - controls whether the + sign is shown with non-negative numbers.
+
+We can force the output of numbers to be in specific format, by using:
+- **std::dec** - for decimal
+- **std::hex** - for hexadecimal
+- **std::oct** - for octal
+
+Only works on integers (integral types). Has no effect on floating numbers.<br>
+Also, these output settings stick and they need to be manually reset.
+
